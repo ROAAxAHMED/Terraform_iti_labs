@@ -1,5 +1,5 @@
 module "iti_network" {
-  source = "/home/abdelrahman-tarek/Documents/AWS/network"
+  source = "/home/roaa/Documents/iti/network"
   vpc_cidr = var.vpc_cidr
 
   subnet_public1_cidr = var.subnet_public1_cidr
